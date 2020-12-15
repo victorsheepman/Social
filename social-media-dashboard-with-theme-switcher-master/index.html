@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="main" id="main">
+    <h1>Social Media Dashboard</h1>
+    <span>Total Followers: 23,004</span>
+    <div class="DarkMode">
+      <h3>DarkMode</h3>
+      <input type="checkbox" class="checkbox" id="checkbox">
+      <label class="switch" for="checkbox" id="switch">
+      </label>
+    </div>
+  </main>
+  <section class="seccion" id="seccion_caja">
+    <div class="seccion__caja" >
+      <div class="caja__imagen">
+        <img src="images/icon-facebook.svg" alt="" style="margin-right: 3px;">
+        <h4>@nathanf</h4>
+      </div>
+      <h1>1987</h1>
+      <span>Followers</span>
+      <div class="caja__up">
+        <img src="images/icon-up.svg" alt="">
+        <span>12 Today</span>
+      </div>
+    </div>
+    <div class="seccion__caja">
+      <div class="caja__imagen">
+        <img src="images/icon-twitter.svg" alt="" style="margin-right: 3px;">
+        <h4>@nathanf</h4> 
+      </div>
+      <h1>1044</h1>
+      <span>Followers</span>
+      <div class="caja__up">
+        <img src="images/icon-up.svg" alt="">
+        <span>99 Today</span>
+      </div>
+    </div>
+    <div class="seccion__caja">
+      <div class="seccion__caja--rosa"></div>
+      <div class="caja__imagen">
+        <img src="images/icon-instagram.svg" alt="" style="margin-right: 3px;">
+        <h4>@realnathanf</h4>
+      </div>
+      <h1>11k</h1>
+      <span>Followers</span>
+      <div class="caja__up">
+        <img src="images/icon-up.svg" alt="">
+        <span> 199 Today</span>
+      </div>
+    </div>
+    <div class="seccion__caja">
+      <div class="seccion__caja--rojo"></div>
+      <div class="caja__imagen">
+        <img src="images/icon-youtube.svg" alt="" style="margin-right: 3px;">
+        <h4>Nathan F.</h4>
+      </div>
+      <h1>8239</h1>
+      <span>Subscribers</span>
+      <div class="caja__down">
+        <img src="images/icon-down.svg" alt="">
+        <span>144 Today</span>
+      </div>
+    </div>
+  </section>
+  <section class="grid">
+    <h1>Overview - Today</h1>
+    <section class="seccion__grid">
+      <div class="caja__grid col-1" >
+        <div class="redes">
+          <h3>Page Views</h3>
+          <img src="images/icon-facebook.svg" alt="">
+        </div>
+        <div class="cuerpo">
+          <h1>87</h1> 
+          <h4>3%</h4>
+          <img src="images/icon-up.svg" alt="">
+        </div>
+      </div>
+      <div class="caja__grid col-2">
+        <div class="redes">
+          <h3>Likes</h3>
+          <img src="images/icon-facebook.svg" alt="">
+        </div>
+        <div class="cuerpo">
+          <h1>52</h1> 
+          <h4 style="color: #ca3b4f;">2%</h4>
+          <img src="images/icon-down.svg" alt="">
+        </div>
+      </div>
+      <div class="caja__grid col-3">
+        <div class="redes">
+          <h3>Likes</h3>
+          <img src="images/icon-instagram.svg" alt="">
+        </div>
+        <div class="cuerpo">
+          <h1>462</h1> 
+          <h4>2%</h4>
+          <img src="images/icon-up.svg" alt="">
+        </div>
+      </div>
+      <div class="caja__grid col-4">
+        <div class="redes">
+          <h3>Profile Views</h3>
+          <img src="images/icon-facebook.svg" alt="">
+        </div>
+        <div class="cuerpo">
+          <h1>52k</h1> 
+          <h4>132%</h4>
+          <img src="images/icon-up.svg" alt="">
+        </div>
+      </div>
+      <div class="caja__grid col-5">
+        <div class="redes">
+          <h3>Retweets</h3>
+          <img src="images/icon-twitter.svg" alt="">
+        </div>
+        <div class="cuerpo">
+          <h1>117</h1> 
+          <h4>23%</h4>
+          <img src="images/icon-up.svg" alt="">
+        </div>
+      </div>
+      <div class="caja__grid col-6">
+        <div class="redes">
+          <h3>Likes</h3>
+          <img src="images/icon-twitter.svg" alt="">
+        </div>
+        <div class="cuerpo">
+          <h1>507</h1> 
+          <h4>53%</h4>
+          <img src="images/icon-up.svg" alt="">
+        </div>
+      </div>
+      <div class="caja__grid col-7">
+        <div class="redes">
+          <h3>Likes</h3>
+          <img src="images/icon-youtube.svg" alt="">
+        </div>
+        <div class="cuerpo">
+          <h1>107</h1> 
+          <h4 style="color: #ca3b4f;">19%</h4>
+          <img src="images/icon-down.svg" alt="">
+        </div>
+      </div>
+      <div class="caja__grid col-8">
+        <div class="redes">
+          <h3>Profile Views</h3>
+          <img src="images/icon-facebook.svg" alt="">
+        </div>
+        <div class="cuerpo">
+          <h1>1.4k</h1> 
+          <h4 style="color: #ca3b4f;">12%</h4>
+          <img src="images/icon-down.svg" alt="">
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<!--
+  Social Media Dashboard
+  Total Followers: 23,004
+
+  Dark Mode
+
+  
+
+  
+  
+  
+
+  @nathanf
+  
+  Followers
+  99 Today
+
+  @realnathanf
+  
+  Followers
+  1099 Today
+
+  Nathan F.
+  
+  Subscribers
+  144 Today
+
+
+
+  
+
+  Page Views
+  87
+  3%
+
+  Likes
+  52
+  2%
+
+  Likes
+  5462
+  2257%
+
+  Profile Views
+  52k
+  1375%
+
+  Retweets
+  117
+  303%
+
+  Likes
+  507
+  553%
+
+  Likes
+  107
+  19%
+
+  Total Views
+  1407
+  12%
+  
+-->
+<script src="darkmode.js"></script>
+</body>
+</html>
